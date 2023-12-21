@@ -1,0 +1,5 @@
+FROM nginx:1.15.8-alpine: The Alpine operating system keeps our attack surface even lower. 
+
+It’s roughly 4MB in size. If an attacker compromises the container, there would be a limited set of tools compared to a larger operating system.
+
+When we add the NGINX binaries to the Alpine image, it’s like 16 MB :) So it’s super tiny. You can’t go wrong.
